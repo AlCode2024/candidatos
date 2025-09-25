@@ -10,46 +10,7 @@
     "otros": "fa-solid fa-link"
   },
   "candidatos": [
-    {
-      "id": 1,
-      "slug": "nelson-david-alvarez-galleguillos-d13",
-      "nombre": "Nelson David Álvarez Galleguillos",
-      "edad": 58,
-      "distrito": "D13",
-      "profesion": "Independiente",
-      "logros": [
-        "Credibilidad en la ciudadanía en mi postura política"
-      ],
-      "ejes": [
-        "Borrar del mapa político a los TRAIDORES de Chile"
-      ],
-      "motivacion": "Para RECUPERAR CHILE para los chilenos",
-      "compromisosPartido": [
-        "Engrandecer y colaborar para llegar a ser el partido más grande y poderoso de Chile"
-      ],
-      "compromisosElecto": [
-        "Transparencia absoluta con la ciudadanía y con el partido"
-      ],
-      "web": "@nelsonalvarez216 tik tok",
-      "redes": {
-        "x": [],
-        "facebook": [],
-        "instagram": [],
-        "tiktok": [],
-        "youtube": [],
-        "linkedin": [],
-        "otros": [
-          "@nelsonalvarez216 tik tok",
-          "Nelson2114 Kwai",
-          "Nelson Alvarez G Facebook",
-          "nelsonalvarez1967 instagram"
-        ]
-      },
-      "email": "alvarez.nelson2567@gmail.com",
-      "telefono": "974960092",
-      "fotoUrl": "img/NelsonA.jpg",
-      "numeroEnVoto": null
-    },
+    
     {
       "id": 2,
       "slug": "andres-henriquez-riquelme-d08",
@@ -353,7 +314,7 @@
       },
       "email": "maricel.donoso1473@gmail.com",
       "telefono": "954915740",
-      "fotoUrl": "img/Maricel.JPG",
+      "fotoUrl": "img/Maricel.jpg",
       "numeroEnVoto": null
     },
     {
@@ -559,6 +520,46 @@
       "email": "tsbarbaraleon@gnail.com",
       "telefono": "937321617",
       "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 1,
+      "slug": "nelson-david-alvarez-galleguillos-d13",
+      "nombre": "Nelson David Álvarez Galleguillos",
+      "edad": 58,
+      "distrito": "D13",
+      "profesion": "Independiente",
+      "logros": [
+        "Credibilidad en la ciudadanía en mi postura política"
+      ],
+      "ejes": [
+        "Borrar del mapa político a los TRAIDORES de Chile"
+      ],
+      "motivacion": "Para RECUPERAR CHILE para los chilenos",
+      "compromisosPartido": [
+        "Engrandecer y colaborar para llegar a ser el partido más grande y poderoso de Chile"
+      ],
+      "compromisosElecto": [
+        "Transparencia absoluta con la ciudadanía y con el partido"
+      ],
+      "web": "@nelsonalvarez216 tik tok",
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "@nelsonalvarez216 tik tok",
+          "Nelson2114 Kwai",
+          "Nelson Alvarez G Facebook",
+          "nelsonalvarez1967 instagram"
+        ]
+      },
+      "email": "alvarez.nelson2567@gmail.com",
+      "telefono": "974960092",
+      "fotoUrl": "img/NelsonA.jpg",
       "numeroEnVoto": null
     }
   ]
