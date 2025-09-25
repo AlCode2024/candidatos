@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Candidatos por distrito</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Candidatos PDG REGION METROPOLITANA</h1>
+<nav class="toolbar" aria-label="Filtros">
+  <!-- SELECT COMUNA (el usuario lo usa si no sabe su distrito) -->
+  <label class="sr-only" for="filtro-comuna">Comuna</label>
+  <select id="filtro-comuna" class="select">
+    <option value="">Selecciona tu comuna</option>
+    <!-- opciones se rellenan desde JS (populateComunas) -->
+  </select>
+
+  <!-- SELECT DISTRITO (sincronizado o selección manual) -->
+  <label class="sr-only" for="filtro-distrito">Distrito</label>
+  <select id="filtro-distrito" class="select">
+    <option value="">Todos los distritos</option>
+    <!-- opciones se rellenan desde JS (populateDistritos) -->
+  </select>
+
+  <!-- BUSCADOR -->
+  <label class="sr-only" for="buscador">Buscar</label>
+  <input id="buscador" class="input" type="search" placeholder="Buscar por nombre..." autocomplete="off">
+
+  <!-- BOTÓN LIMPIAR (limpia comuna + distrito) -->
+  <button id="btn-limpiar" class="btn" type="button" title="Limpiar filtros">Limpiar</button>
+
+  <!-- CONTADOR -->
+  <span id="contador" class="counter" aria-live="polite"></span>
+</nav>
+
+  </header>
+
+  <main id="main" class="container">
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <div id="estado" class="estado" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <small>Vote 1ntel1gente vote 1: <code>candidatos PDG Región Metropolitana</code> · Vamos por Ch1le</small>
+  </footer>
+
+  <!-- Modal Detalle -->
+  <dialog id="modal-detalle" class="modal" aria-labelledby="modal-titulo">
+    <article class="detalle">
+      <button id="modal-cerrar" class="btn-close" aria-label="Cerrar">×</button>
+      <div class="detalle-header">
+        <img id="detalle-foto" alt="" class="detalle-foto" loading="lazy">
+        <div>
+          <h2 id="modal-titulo"></h2>
+          <p id="detalle-subtitulo" class="muted"></p>
+        </div>
+      </div>
+
+      <div class="detalle-body">
+        <section id="detalle-motivacion" hidden>
+          <h3>¿Por qué postula?</h3>
+          <p id="detalle-motivacion-text"></p>
+        </section>
+
+        <section id="detalle-ejes" hidden>
+          <h3>Principales ejes</h3>
+          <ul id="detalle-ejes-list"></ul>
+        </section>
+
+        <section id="detalle-logros" hidden>
+          <h3>Logros destacados</h3>
+          <ul id="detalle-logros-list"></ul>
+        </section>
+
+        <section id="detalle-compromisos-partido" hidden>
+          <h3>Compromisos con el Partido</h3>
+          <ul id="detalle-compromisos-partido-list"></ul>
+        </section>
+
+        <section id="detalle-compromisos-electo" hidden>
+          <h3>Compromisos si es electo</h3>
+          <ul id="detalle-compromisos-electo-list"></ul>
+        </section>
+
+        <section id="detalle-contacto" hidden>
+          <h3>Contacto</h3>
+          <ul id="detalle-contacto-list"></ul>
+        </section>
+
+        <section id="detalle-enlaces" hidden>
+          <h3>Web y redes</h3>
+          <ul id="detalle-enlaces-list"></ul>
+        </section>
+      </div>
+    </article>
+  </dialog>
+
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>

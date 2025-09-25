@@ -1,0 +1,122 @@
+/* Header centrado como bloque único */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(11,12,16,.7);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--border);
+
+  display: flex;
+  flex-direction: column;   /* apila h1 y toolbar en móvil */
+  align-items: center;      /* centra horizontalmente */
+  justify-content: center;  /* centra verticalmente el bloque */
+  gap: 8px;                 /* separación entre h1 y toolbar */
+  padding: var(--space-lg) 16px; 
+}
+
+/* H1 centrado */
+.site-header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* Toolbar como bloque alineado con h1 */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;          /* para móviles, baja si no cabe */
+  gap: var(--space);
+  justify-content: center;  /* centrado horizontal */
+  align-items: center;      /* centrado vertical respecto a h1 */
+  width: 100%;
+  max-width: 720px;         /* evita que se estire demasiado */
+}
+
+/* Inputs y selects del toolbar */
+.toolbar .select,
+.toolbar .input {
+  width: 100%;
+  max-width: 320px;         /* ancho máximo individual */
+}
+
+/* En pantallas grandes, h1 y toolbar en fila, centrados */
+@media (min-width: 768px) {
+  .site-header {
+    flex-direction: row;     /* h1 y toolbar lado a lado */
+    justify-content: center; /* todo centrado horizontal */
+    align-items: center;     /* alineación vertical perfecta */
+    gap: var(--space-lg);    /* espacio entre h1 y toolbar */
+    padding: var(--space-lg) 16px;
+  }
+
+  .site-header h1 {
+    text-align: center;
+  }
+
+  .toolbar {
+    justify-content: flex-start; /* toolbar a la derecha del h1 */
+    flex-wrap: nowrap;           /* todo en una línea */
+  }
+}
+
+
+.grid{
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: 1fr;
+  padding: var(--space-lg) 0;
+}
+@media (min-width: 480px){ .grid{ grid-template-columns: repeat(2, 1fr);} }
+@media (min-width: 768px){ .grid{ grid-template-columns: repeat(3, 1fr);} }
+@media (min-width: 1024px){ .grid{ grid-template-columns: repeat(4, 1fr);} }
+
+.card{
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
+  display: flex; flex-direction: column;
+}
+.card-img{ aspect-ratio: 4/3; object-fit: cover; background: #0c0e14; }
+.card-body{ padding: var(--space-lg); display: flex; flex-direction: column; gap: 8px; }
+.card-title{ font-size: 1.1rem; margin: 0; }
+.badge{ display: inline-block; padding: 2px 8px; border: 1px solid var(--border); border-radius: 999px; font-size: .8rem; color: var(--muted); }
+.ejes{
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  opacity: .95; min-height: 3.4em;
+}
+.card-actions{ margin-top: auto; display: flex; justify-content: flex-end; }
+.btn{
+  background: var(--primary); color: #08121b; border: none; padding: 10px 12px; border-radius: 10px; font-weight: 600; cursor: pointer;
+}
+.btn:hover{ filter: brightness(1.05); }
+
+.estado{
+  margin: 32px 0; padding: 16px; border: 1px dashed var(--border); border-radius: 12px; color: var(--muted);
+}
+
+.site-footer{
+  padding: 24px 0; border-top: 1px solid var(--border); color: var(--muted);
+}
+
+/* Modal */
+.modal{
+  width: min(900px, 96vw);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0;
+  background: var(--panel);
+  color: var(--text);
+}
+.modal::backdrop{ background: rgba(0,0,0,.6); }
+
+.detalle{ padding: var(--space-lg); }
+.btn-close{
+  float: right; background: transparent; border: 0; color: var(--muted); font-size: 1.6rem; cursor: pointer;
+}
+.detalle-header{ display: grid; grid-template-columns: 120px 1fr; gap: var(--space-lg); align-items: center; margin-top: 8px; }
+.detalle-foto{ width: 120px; height: 120px; object-fit: cover; border-radius: 12px; border: 1px solid var(--border); background: #0c0e14; }
+.detalle-body{ display: grid; gap: 16px; margin-top: 8px; }
+.detalle-body h3{ margin: 0 0 6px 0; }
+.detalle-body ul{ margin: 0; padding-left: 18px; }

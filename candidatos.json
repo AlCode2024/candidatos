@@ -1,0 +1,565 @@
+{
+  "icons": {
+    "x": "fa-brands fa-x-twitter",
+    "facebook": "fa-brands fa-facebook",
+    "instagram": "fa-brands fa-instagram",
+    "tiktok": "fa-brands fa-tiktok",
+    "youtube": "fa-brands fa-youtube",
+    "linkedin": "fa-brands fa-linkedin",
+    "kwai": "fa-solid fa-video",
+    "otros": "fa-solid fa-link"
+  },
+  "candidatos": [
+    {
+      "id": 1,
+      "slug": "nelson-david-alvarez-galleguillos-d13",
+      "nombre": "Nelson David Álvarez Galleguillos",
+      "edad": 58,
+      "distrito": "D13",
+      "profesion": "Independiente",
+      "logros": [
+        "Credibilidad en la ciudadanía en mi postura política"
+      ],
+      "ejes": [
+        "Borrar del mapa político a los TRAIDORES de Chile"
+      ],
+      "motivacion": "Para RECUPERAR CHILE para los chilenos",
+      "compromisosPartido": [
+        "Engrandecer y colaborar para llegar a ser el partido más grande y poderoso de Chile"
+      ],
+      "compromisosElecto": [
+        "Transparencia absoluta con la ciudadanía y con el partido"
+      ],
+      "web": "@nelsonalvarez216 tik tok",
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "@nelsonalvarez216 tik tok",
+          "Nelson2114 Kwai",
+          "Nelson Alvarez G Facebook",
+          "nelsonalvarez1967 instagram"
+        ]
+      },
+      "email": "alvarez.nelson2567@gmail.com",
+      "telefono": "974960092",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 2,
+      "slug": "andres-henriquez-riquelme-d08",
+      "nombre": "Andrés Henríquez Riquelme",
+      "edad": 44,
+      "distrito": "D08",
+      "profesion": "Profesor, Comisario PDI (r), emprendedor y comunicador.",
+      "logros": [
+        "Trabajo comunitario, apoyo a fundaciones y a Emprendedores desde hace más de 15 años a la fecha. Programas de televisión de actualidad en canal Vive y canal Tevex. Presentó dos propuestas en materia de seguridad que actualmente están en el programa de gobierno de Franco Parisi."
+      ],
+      "ejes": [
+        "Mi principal eje es la seguridad, vamos a crear la policía municipal armada, que va a tener una escuela de formación, va a depender administrativamente de carabineros y va a rendir cuentas al ministerio de seguridad o al ministerio del interior conforme corresponda. Vamos a modificar las leyes orgánicas de carabineros y de la PDI, para hacer una distinción estricta de funciones, carabineros, solamente va a prevenir y PDI sólo va a investigar. Y como la seguridad va de la mano de la economía, vamos a legislar para que los emprendedores paguen menos IVA, y éste puede ser pagado en cuotas."
+      ],
+      "motivacion": "Con mi amplia trayectoria en materias de seguridad, quiero acabar con la corrupción, acabar con los delitos y entregar un apoyo férreo a los Emprendedores. No debo favores políticos a nadie, digo las cosas de frente, sin miedo, y quiero seguir trabajando por un Chile mejor",
+      "compromisosPartido": [
+        "Voy a legislar para que ningún parlamentario gane más de 5 millones de pesos. Para legislar vamos a pedir la opinión de los militantes del partido. Vamos a tomar decisiones conforme a lo que el partido decida. No vamos a renunciar al partido mientras estemos en ejercicio del cargo."
+      ],
+      "compromisosElecto": [
+        "Vamos a hacer un trabajo legislativo, acorde a lo que la ciudadanía necesite. Vamos a estar desplegados en el distrito. Vamos a legislar en materia de seguridad para buscar la paz de Chile. Respecto a los sueldos parlamentarios, vamos a estar alineados con lo que diga nuestro presidente don Franco Parisi. Vamos a escuchar a la gente y conforme a la democracia digital, vamos a tomar las decisiones que los militantes decidan tomar."
+      ],
+      "web": null,
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [
+          "https://www.instagram.com/andreshenriquez.cl?igsh=MWhmZG0xN2pqcGRwdQ%3D%3D&utm_source=qr"
+        ],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": []
+      },
+      "email": "Diputado.andreshenriquez@ gmail.com",
+      "telefono": "+56952436359",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 3,
+      "slug": "jorge-marcelo-chavez-arevalo-d12",
+      "nombre": "Jorge Marcelo Chávez arevalo",
+      "edad": 46,
+      "distrito": "D12",
+      "profesion": "Asistente Judicial",
+      "logros": [
+        "Tener una carrera con mucho esfuerzo, estudiando y trabajando, ser jefe de mi trabajo por más de 12 años, obtener mi vehículo propio y llevar una vida mediana mente cómoda"
+      ],
+      "ejes": [
+        "Que mis ideas se escuchen y ser conocido planteando en primer lugar que en este partido político somos en su mayoría personas a políticas, que quieren lo mejor para un país más justo y transversal"
+      ],
+      "motivacion": "Para que la voz de los ciudadanos se escuche... La justicia, delincuencia, equidad y mejoras en la salud y educación",
+      "compromisosPartido": [
+        "No ganar más de 5 millones como sueldo parlamentario, antes de cualquier decisión consultarlo con mi partido político."
+      ],
+      "compromisosElecto": [
+        "No ganar más de 5 millones como sueldo parlamentario, antes de cualquier decisión consultarlo con mi partido político."
+      ],
+      "web": null,
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "Jorge Marcelo Chávez arevalo faebook"
+        ]
+      },
+      "email": "marcelo.chavez.arevalo79@gmail.com",
+      "telefono": "996982367",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 4,
+      "slug": "marcelo-andres-olivares-figueroa-d13",
+      "nombre": "Marcelo Andrés Olivares Figueroa",
+      "edad": 46,
+      "distrito": "D13",
+      "profesion": "Profesor de Matemática",
+      "logros": [
+        "Obtener como profesor el reconocimiento a mi trabajo y esfuerzo por parte de mis alumnos, apoderados y directoras.",
+        "Lograr cumplir los requisitos para mi carrera, titulo y postítulo frente a las adversidades.",
+        "Dirigir proyectos o equipos con éxito, motivar a otros y tomar decisiones efectivas.",
+        "Desarrollar soluciones creativas a problemas complejos y mejorar procesos.",
+        "Participar en proyectos de voluntariado, liderar iniciativas sociales o contribuir a causas benéficas.",
+        "Demostrar un compromiso con la mejora continua, la adaptabilidad y el aprendizaje permanente."
+      ],
+      "ejes": [
+        "Educación, Salud, Trabajo, Ayuda social"
+      ],
+      "motivacion": "Porque soy un profesional íntegro, responsable, honrado y honesto. Características que que faltan en los políticos actuales.\nDeseo contribuir al bienestar social de mi comunidad y mi pais.\nQuiero representar fielmente a los electores según sus necesidades e intereses.\nPromover cambios, mejoras y actualizaciones en temas políticos sociales o económicos.",
+      "compromisosPartido": [
+        "Participar activamente en las sesiones del PDG, apoyar en las actividades y gestiones que mantengan la necesidad de un alto grado de representatividad de su misión, visión y ejes de trabajo frente a la comunidad pública, promover la participación de nuevos adherentes al PDG"
+      ],
+      "compromisosElecto": [
+        "Mi compromiso es social, ético y moral acordé a las necesidades políticas y humanas"
+      ],
+      "web": null,
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [
+          "tiktok.com/@pdg_distrito13"
+        ],
+        "youtube": [],
+        "linkedin": [],
+        "otros": []
+      },
+      "email": "profesormarceloolivares@gmail.com",
+      "telefono": "987179010",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 5,
+      "slug": "leonardo-javier-maturana-vergara-d12",
+      "nombre": "Leonardo Javier Maturana Vergara",
+      "edad": 47,
+      "distrito": "D12",
+      "profesion": "Técnico superior telemática, construcción en obras menores",
+      "logros": [
+        "Trabajo en el congreso ideológico del partido, formación de grupos scout de larga trayectoria, campeonatos deportivos."
+      ],
+      "ejes": [
+        "Emprendedores, deportes, apoyo al territorio"
+      ],
+      "motivacion": "Fiscalizar para atacar la corrupción, genere mejoras para fomentar el emprendimiento, reformas para fomentar el deporte.apoyon aletea de seguridad.",
+      "compromisosPartido": [
+        "Seguir lineamientos y acuerdos de partido"
+      ],
+      "compromisosElecto": [
+        "Baja de sueldos parlamentarios, trabajar por mis electores, consulta ciudadanas,  apoyo a los emprendedores, apoyo al deporte, leyes pro seguridad."
+      ],
+      "web": null,
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [
+          "https://www.instagram.com/leo.maturana_d12?igsh=MWsxOWJhNWF3MWgxaQ=="
+        ],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": []
+      },
+      "email": "Maturana.vergara@gmail.com",
+      "telefono": "949044240",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 6,
+      "slug": "ricardo-andres-aviles-rubilar-d11",
+      "nombre": "Ricardo Andrés Avilés Rubilar",
+      "edad": 45,
+      "distrito": "D11",
+      "profesion": "Arquitecto",
+      "logros": [
+        "Padre de familia con dos hijos",
+        "Arquitecto Magister en diseño arquitectónico",
+        "fui director de obras municipales DOM",
+        "funcionario público del ministerio de Viviendas",
+        "más de 18 años de experiencia en sector público y privado"
+      ],
+      "ejes": [
+        "Demostrar a la ciudadanía que un ciudadano común puede llegar al parlamento y tener representación real"
+      ],
+      "motivacion": "Para aportar con conocimiento, experiencia y transparencia",
+      "compromisosPartido": [
+        "El partido de la Gente es quién confió en mí y en mis propuestas por lo que tengo un compromiso real"
+      ],
+      "compromisosElecto": [
+        "Bajar el sueldo a no más de 5 millones y tener oficina distrital en la comuna de Peñalolén,  trabajar escuchando la opinión ciudadana siempre"
+      ],
+      "web": "No tengo",
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "Ricardoavilesrubilar (Instagram)",
+          "Ricardoavilescl (TikTok)"
+        ]
+      },
+      "email": "Ricardoavilesr@gmail.com",
+      "telefono": "996390288",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 7,
+      "slug": "felix-enrique-molina-riquelme-d08",
+      "nombre": "Felix Enrique Molina Riquelme",
+      "edad": 41,
+      "distrito": "D08",
+      "profesion": "Ingeniero Comercial",
+      "logros": [
+        "Mis títulos, mi profesión y el poder crear mi negocio actual en el que me desempeño"
+      ],
+      "ejes": [
+        "la honestidad, ideas reales, el trabajar con la gente, enfoque y consistencia,"
+      ],
+      "motivacion": "para poder aportar a la sociedad y crear leyes que sean realmente favorable a todas las personas y no que beneficie a un grupo económico reducido como esta sucediendo en la actualidad",
+      "compromisosPartido": [
+        "totalmente, las ideas y propuestas son totalmente favorable y creo que van lo que la gente necesita, así que el apoyo hacia el partido es 100 x 100"
+      ],
+      "compromisosElecto": [
+        "primeramente apoyar y concretar las ideas, misión y visión del partido, dar compromisos favorables para que la gente pueda salir siempre adelante"
+      ],
+      "web": "felix.molina.riquelme en instagram",
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "instagran, facebook, tik tok"
+        ]
+      },
+      "email": "felix.molina.riquelme@gmail.com",
+      "telefono": "56979091407",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 8,
+      "slug": "marcela-ivonne-caballero-reyes-d11",
+      "nombre": "Marcela Ivonne Caballero Reyes",
+      "edad": 52,
+      "distrito": "D11",
+      "profesion": "Contador General, Ejecutiva Comercial",
+      "logros": [
+        "Supervisora en Call Center, Capacitadora en el área Atención al Cliente."
+      ],
+      "ejes": [
+        "Vivienda para las mujeres,  Salud no mas lista de espera. Austoprestamo de tus fondos, salacuna universal"
+      ],
+      "motivacion": "Quiero llegar al congreso porque creo en la importancia de legislar con cercanía a la ciudadanía.",
+      "compromisosPartido": [
+        "Lealtad"
+      ],
+      "compromisosElecto": [
+        "Trabajar para la gente."
+      ],
+      "web": "No tengo",
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "Instagram marcela caballero reyes"
+        ]
+      },
+      "email": "Marcela44cr@gmail.com",
+      "telefono": "9 39230054",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 9,
+      "slug": "maricel-donoso-acevedo-d11",
+      "nombre": "Maricel Donoso Acevedo",
+      "edad": null,
+      "distrito": "D11",
+      "profesion": "Técnico en Trabajo Social, estudiante último año trabajo Social",
+      "logros": [
+        "Mujer luchadora y perseverante, madre, hija y abuela que ha salido adelante con trabajo y esfuerzo. Retome mis estudios a mis 48 años, me titule como tecnico en Trabajo Social y en la actualidad 52 años terminando la carrera profesional. Formacion y vocacion Social, con experiencia en terreno acompañando familias, adultos mayores y comunidades.Cercania con la gente."
+      ],
+      "ejes": [
+        "Salud digna y oportuna, pensiones justas,educacion accesible y de calidad, apoyo a mujeres y familias cuidadoras, seguridad y barrios tranquilos, apoyo a las pymes y participacion ciudadana."
+      ],
+      "motivacion": "Para ser las voz de la gente, trabajadora esforzada que ha perdido la esperanza y confianza en la politica.",
+      "compromisosPartido": [
+        "Representar los principios del PDG, transparencia, cercania y defensa de la gente comun. Trabajar por la unidad del partido, respetando los acuerdos colectivos y sumando desde mi experiencia. mantener transparencia"
+      ],
+      "compromisosElecto": [
+        "Ser la voz de la gente en el congreso, Transparencia total en la gestion, rendir cuentas periodicas de mi trabajo como diputada, escuchar y respetar a la gente real, mi compromiso es legislar escuchando directamente a los vecinos y organizaciones. Defender la clase media y trabajadora, salud y educacion dignas, seguridad en los barrios."
+      ],
+      "web": null,
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "instagram mariceldonosoacevedo"
+        ]
+      },
+      "email": "maricel.donoso1473@gmail.com",
+      "telefono": "954915740",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 10,
+      "slug": "karen-elizabeth-osorio-munoz-d10",
+      "nombre": "karen elizabeth osorio muñoz",
+      "edad": 39,
+      "distrito": "D10",
+      "profesion": "gerente de finanzas",
+      "logros": [
+        "Karen Osorio fue candidata para alcaldesa de la comuna de Santiago en las elecciones municipales de octubre de 2024, representando al Partido de la Gente (PDG) dejando a su partido con una buena posicion donde aquel tenia muy bajo alcance.",
+        "Es emprendedora (del rubro automotriz), dirigente social, y logra tener mucha cercanía con los barrios de Santiago Centro",
+        "en la campaña anterior logra enfatizar temas como la seguridad, la eficiencia en la gestión municipal, la transparencia, y la economía comunal. cuando no se hablaba de aquello.",
+        "vocera de la agrupacion de familias contra el crimen organizado, llegando a distintas comunas del pais."
+      ],
+      "ejes": [
+        "Terminar con el gasto publico en politicas y programas de gobiernos mal evaluados.",
+        "Crimen organizado: reparemos barrios victimas del crimen organizado con el fondo nacional de reparacion territorial. Que el crimen organizado sea catalogado como terrorismo.",
+        "Rindamos cuentas a nuestro territorio con el nuevo sistema de rendicion de cuentas parlamentarios."
+      ],
+      "motivacion": "los chilenos necesitan un cambio real, gente que haga la pega, y yo soy una de ellas, es por eso que los quiero representar en el congreso para que nunca mas se legisle desde un escritorio, si no desde el territorio viviendo la realidad de los chilenos.",
+      "compromisosPartido": [
+        "respetar las bases, y seguir posicionando al partido."
+      ],
+      "compromisosElecto": [
+        "cumplir las propuestas a la gente"
+      ],
+      "web": null,
+      "redes": {
+        "x": [
+          "https://x.com/karenosoriostgo?s=11&t=Sisu0sCB5gukdzqGr-p4OA"
+        ],
+        "facebook": [
+          "https://www.facebook.com/share/1Gy5T9svoR/?mibextid=wwXIfr",
+          "https://www.facebook.com/share/14KD5w9rmgr/?mibextid=wwXIfr"
+        ],
+        "instagram": [
+          "https://www.instagram.com/karenosorio.cl?igsh=eWJmajExbmJmNjlr&utm_source=qr"
+        ],
+        "tiktok": [
+          "https://www.tiktok.com/@karenosorio.cl?_t=ZM-8zzd0WRYmLL&_r=1"
+        ],
+        "youtube": [],
+        "linkedin": [],
+        "otros": []
+      },
+      "email": "karenosoriok255@gmail.com",
+      "telefono": "941676676",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 11,
+      "slug": "hernan-jonathan-alvarez-vargas-d12",
+      "nombre": "Hernán Jonathan Alvarez Vargas",
+      "edad": 43,
+      "distrito": "D12",
+      "profesion": "Administración de empresas  mención seguridad privada",
+      "logros": [
+        "En mi vida he tenido muchos logros en mi profesión pero de la que me siento más orgulloso es de tener la linda familia que he creado junto a mi mujer y mis tres hijos."
+      ],
+      "ejes": [
+        "Salud y seguridad"
+      ],
+      "motivacion": "Quiero un país más justo donde los chilenos nos levantamos  y podamos llegar al trabajo y volver a nuestros hogares, mejorar en medida que se pueda la salud y educación, eso me haria una persona  orgullosa y privilegiada con el fin de ayudar a mi país.",
+      "compromisosPartido": [
+        "Me representa totalmente y lo representare con mucho ahinco ."
+      ],
+      "compromisosElecto": [
+        "Estar con la gente y trabajar para ella ."
+      ],
+      "web": "No tengo aún !",
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "Hernan_alvarez_12"
+        ]
+      },
+      "email": "hernanalvarezvargas@gmail.com",
+      "telefono": "+56995966773",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 12,
+      "slug": "elizabeth-fuentes-bravo-d11",
+      "nombre": "Elizabeth Fuentes Bravo",
+      "edad": 50,
+      "distrito": "D11",
+      "profesion": "Técnico superior en Gestión de Empresas",
+      "logros": [
+        "Plebiscito en junta de vecinos voto a voto.",
+        "Proyecto ganado y ejecutado en la unidad vecinal. Proyectos municipales deportivos ganados. Grabados 3 CD con música Folclórica, temas propios, recopilado y de folclor tradicional"
+      ],
+      "ejes": [
+        "Trabajar por el pueblo chileno y sus necesidades, Una mirada nueva para Chile.",
+        "Apoyo al deporte, folclor chileno y mascotas"
+      ],
+      "motivacion": "Mejorar leyes existentes a favor de las personas",
+      "compromisosPartido": [
+        "Seguir la misma línea, aportar con ideas nuevas, apoyar las buenas iniciativas"
+      ],
+      "compromisosElecto": [
+        "Ayudar a las personas, hacer mejoras en leyes que ya existe o aún no están"
+      ],
+      "web": null,
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": [
+          "Instagram elizabethfuentesb"
+        ]
+      },
+      "email": "elizabethfuentes21@gmail.com",
+      "telefono": "991538054",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    },
+    {
+      "id": 13,
+      "slug": "barbara-tania-molina-silva-d10",
+      "nombre": "Bárbara Tania Molina Silva",
+      "edad": 47,
+      "distrito": "D10",
+      "profesion": "Trabajadora Social y Licenciada en Trabajo Social , UCSH.",
+      "logros": [
+        "Amplia experiencia en protección de derechos de niños, niñas y adolescentes en contextos de alta vulneración.",
+        "Especialización en intervención en crisis y acompañamiento hospitalario de casos de ideación suicida.",
+        "Participación activa en la gestión integral de casos en coordinación con tribunales de familia, salud y programas de la red Mejor Niñez.",
+        "Supervisión y desarrollo de talleres psicoeducativos con organizaciones sociales y fundaciones.",
+        "Experiencia en el trabajo con adultos mayores y comunidades migrantes, aportando una visión integral de derechos humanos.",
+        "Autora de publicaciones académicas sobre vulneración de derechos y políticas sociales en revistas especializadas.",
+        "Propuestas legislativas",
+        "Creación de una Red Interregional de Donantes de Sangre: ley que permita garantizar la disponibilidad equitativa de sangre en todo el país, con un sistema de coordinación nacional que asegure rapidez en emergencias y reduzca la escasez en regiones apartadas.",
+        "Incorporación del grupo sanguíneo en la cédula de identidad: medida preventiva y de salud pública que facilitará atenciones de urgencia, optimizará la respuesta en accidentes y mejorará la gestión de emergencias médicas."
+      ],
+      "ejes": [
+        "1. Protección de derechos y bienestar social",
+        "Fortalecer la protección de niños, niñas y adolescentes en contextos de vulneración.",
+        "Ampliar las redes de apoyo a adultos mayores y comunidades migrantes.",
+        "Impulsar políticas públicas que prioricen la prevención y reparación del daño psicosocial.",
+        "2. Salud y respuesta en emergencias",
+        "Creación de una Red Interregional de Donantes de Sangre que garantice disponibilidad en todo el país.",
+        "Incorporación del grupo sanguíneo en la cédula de identidad, para salvar vidas en atenciones de urgencia.",
+        "Mayor inversión en salud mental, con énfasis en prevención del suicidio adolescente.",
+        "3. Estado cercano, justo y eficiente",
+        "Modernizar la gestión social y los sistemas de protección para que las familias reciban respuestas rápidas y efectivas.",
+        "Promover la articulación entre municipios, servicios de salud, justicia y educación para reducir burocracia.",
+        "Rol fiscalizador activo: garantizar transparencia en el gasto público, supervisar la correcta implementación de programas sociales y exigir cuentas claras a las autoridades y servicios."
+      ],
+      "motivacion": "Quiero dar el paso a la política porque mi experiencia como trabajadora social me ha mostrado, de primera mano, las carencias estructurales que viven miles de niños, niñas, adolescentes, adultos mayores y familias en nuestro país. He trabajado en residencias de protección, oficinas municipales y en terreno, enfrentando realidades de abuso, abandono, migración y vulneración de derechos.\n\nSé que muchas de estas situaciones no se resuelven solo con acompañamiento social, sino que requieren cambios legislativos y políticas públicas más justas y humanas. Desde el Congreso, quiero transformar esas experiencias en propuestas concretas que protejan la dignidad de las personas, fortalezcan la red de protección social y modernicen nuestro sistema de salud y bienestar.\n\nMi compromiso es llevar la voz de quienes no son escuchados y transformar la empatía en leyes que generen un impacto real en la vida de las familias chilenas.",
+      "compromisosPartido": [
+        "Mis compromisos con el Partido de la Gente",
+        "1. Cercanía y representación real",
+        "Ser una voz directa de las personas en el Congreso, manteniendo comunicación constante con la comunidad.",
+        "Escuchar y recoger las necesidades ciudadanas antes de votar o presentar proyectos de ley.",
+        "2. Fiscalización y transparencia",
+        "Cumplir un rol fiscalizador activo, velando porque los recursos públicos se usen en beneficio de la gente y no en privilegios de la política.",
+        "Promover la transparencia en la gestión del Estado y exigir rendición de cuentas a todas las instituciones.",
+        "3. Agenda social y de salud",
+        "Impulsar la Red Interregional de Donantes de Sangre y la incorporación del grupo sanguíneo en la cédula de identidad.",
+        "Promover políticas de protección integral a NNA, adultos mayores y comunidades vulnerables.",
+        "Luchar por más inversión en salud mental y en programas preventivos.",
+        "4. Compromiso con la ética política",
+        "No aprovechar el cargo para beneficios personales o familiares.",
+        "Mantener independencia frente a los poderes económicos y políticos, trabajando siempre por la gente común."
+      ],
+      "compromisosElecto": [
+        "Mis compromisos como diputada",
+        "Mantener cercanía con la ciudadanía, rindiendo cuentas periódicamente de mi trabajo.",
+        "Escuchar a las comunidades antes de tomar decisiones en el Congreso.",
+        "Presentar la ley que crea la Red Interregional de Donantes de Sangre.",
+        "Incorporar el grupo sanguíneo en la cédula de identidad como medida preventiva en emergencias.",
+        "Luchar por una mayor inversión en salud mental, con especial énfasis en la prevención del suicidio adolescente.",
+        "Mejorar los sistemas de protección de niños, niñas y adolescentes, adultos mayores y comunidades migrantes.",
+        "Promover políticas públicas que reparen el daño y fortalezcan los vínculos familiares y comunitarios.",
+        "Revisar que los recursos públicos se usen correctamente, sin abusos ni corrupción.",
+        "Exigir eficiencia y resultados a los programas sociales, de salud y educación.",
+        "Ser una representante leal a la ciudadanía, no a intereses económicos o políticos.",
+        "Cumplir con los principios del PDG: transparencia, rendición de cuentas y trabajo por la gente común."
+      ],
+      "web": null,
+      "redes": {
+        "x": [],
+        "facebook": [],
+        "instagram": [
+          "https://www.instagram.com/barbara_leonsilva?igsh=MWF1cXlycWVubjVteQ=="
+        ],
+        "tiktok": [],
+        "youtube": [],
+        "linkedin": [],
+        "otros": []
+      },
+      "email": "tsbarbaraleon@gnail.com",
+      "telefono": "937321617",
+      "fotoUrl": "img/i33.jpg",
+      "numeroEnVoto": null
+    }
+  ]
+}
