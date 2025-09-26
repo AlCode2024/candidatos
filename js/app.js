@@ -100,7 +100,7 @@ function normalizeStr(s){
 /* ---------- Carga de datos ---------- */
 async function loadData() {
   try {
-    const res = await fetch("candidatos.json", { cache: "no-store" });
+    const res = await fetch("candidatos2.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`Error ${res.status}`);
     const data = await res.json();
     state.candidatosData = data;
@@ -463,3 +463,4 @@ function init(){
 }
 
 init();
+
