@@ -1,6 +1,13 @@
+/* ===========================
+   CSS completo corregido
+   (pegar reemplazando tu archivo actual)
+   =========================== */
+
 /* Header centrado como bloque único */
 .site-header {
-  position: sticky;
+  /* En móvil no dejamos el header como sticky para evitar que oculte pantalla.
+     En desktop (media query más abajo) lo marcamos sticky de nuevo. */
+  position: static;
   top: 0;
   z-index: 10;
   background: rgba(11,12,16,.7);
@@ -12,7 +19,7 @@
   align-items: center;      /* centra horizontalmente */
   justify-content: center;  /* centra verticalmente el bloque */
   gap: 8px;                 /* separación entre h1 y toolbar */
-  padding: var(--space-lg) 16px; 
+  padding: var(--space-lg) 16px;
 }
 
 /* H1 centrado */
@@ -45,6 +52,9 @@
 /* En pantallas grandes, h1 y toolbar en fila, centrados */
 @media (min-width: 768px) {
   .site-header {
+    position: sticky;     /* vuelve a ser sticky en desktop */
+    top: 0;
+    z-index: 10;
     flex-direction: row;     /* h1 y toolbar lado a lado */
     justify-content: center; /* todo centrado horizontal */
     align-items: center;     /* alineación vertical perfecta */
@@ -62,6 +72,9 @@
   }
 }
 
+/* ------------------------
+   Grid / tarjetas / UI
+   ------------------------ */
 
 .grid{
   display: grid;
@@ -120,3 +133,113 @@
 .detalle-body{ display: grid; gap: 16px; margin-top: 8px; }
 .detalle-body h3{ margin: 0 0 6px 0; }
 .detalle-body ul{ margin: 0; padding-left: 18px; }
+
+/* ===========================
+   Ajustes móviles y off-canvas
+   =========================== */
+
+/* Mejoras para dispositivos pequeños:
+   - inputs más compactos
+   - toolbar no fixed
+   - h1 más pequeño si hace falta */
+@media (max-width: 767px) {
+  .toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 6px 4px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: static !important;
+    transform: none !important;
+  }
+
+  .toolbar .select,
+  .toolbar .input,
+  .toolbar input,
+  .toolbar select {
+    width: 100%;
+    max-width: 100%;
+    padding: .35rem .5rem;
+    font-size: .875rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  .site-header h1 {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    padding: 0 8px;
+  }
+
+  /* Si prefieres que la toolbar quede oculta en móvil y mostrar solo el botón
+     de búsqueda, descomenta la siguiente regla y añade el HTML del botón. */
+  /* .toolbar { display: none; } */
+}
+
+/* --------------------------
+   Backdrop y panel lateral
+   (usa IDs: #backdrop y #panel-busqueda)
+   -------------------------- */
+
+/* Backdrop (oscurece el contenido cuando el panel está abierto) */
+#backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  display: none; /* visible mediante JS */
+  z-index: 998;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Panel lateral off-canvas (oculto por defecto) */
+#panel-busqueda {
+  --panel-width: 320px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: var(--panel-width);
+  max-width: 90%;
+  background: var(--panel, #ffffff);
+  box-shadow: 0 12px 30px rgba(2,6,23,0.35);
+  transform: translateX(-110%);
+  transition: transform .24s cubic-bezier(.2,.9,.2,1), visibility .18s linear;
+  z-index: 999;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  border-right: 1px solid var(--border);
+}
+
+/* Clase para abrir el panel (añadir/quitar con JS) */
+#panel-busqueda.open {
+  transform: translateX(0%);
+}
+
+/* Mostrar backdrop cuando se añade la clase .visible (mediante JS) */
+#backdrop.visible { display: block; }
+
+/* Ocultar panel y backdrop en desktop (no se usan) */
+@media (min-width: 768px) {
+  #panel-busqueda, #backdrop { display: none !important; }
+}
+
+/* --------------------------
+   Micro mejoras y accesibilidad
+   -------------------------- */
+
+/* Transición suave para la toolbar (si la escondes/mostrars con JS) */
+.toolbar {
+  transition: transform .22s ease, opacity .18s ease;
+}
+
+/* Evitar que el contenido quede cubierto en desktop por el header sticky:
+   si necesitas compensar, añade padding-top a main en desktop */
+@media (min-width: 768px) {
+  main, #main-content {
+    /* descomenta y ajusta si tu header ocupa espacio y tapa el contenido */
+    /* padding-top: 64px; */
+  }
+}
+
+/* Mantener compatibilidad visual con el resto de reglas previas (sin cambios) */
